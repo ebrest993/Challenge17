@@ -41,6 +41,8 @@ Character classes exist inside of the bracket expressions; they determine which 
 
 ### The OR Operator
 
+'Or' operators allow the users to pick between one set of characters and another. For example: (A *or* B, C *or* D). In this example, all of the following meet the requirements: (A, C), (A, D), (B, C), and (B, D).
+
 ### Flags
 
 ### Character Escapes
