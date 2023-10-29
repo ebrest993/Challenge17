@@ -45,7 +45,11 @@ Character classes exist inside of the bracket expressions; they determine which 
 
 ### Flags
 
+A flag determines if/when a regular expression will search in a different way.
+
 ### Character Escapes
+
+Character escapes (indicated by a back slash) are used when you need to search for a specific character and, in doing so, rid it of any intrinsic coding-language value.
 
 ## Author
 
