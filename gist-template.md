@@ -33,9 +33,11 @@ Grouping constructs deal with smaller subsets of both the regular expression and
 
 ### Bracket Expressions
 
-Bracket expressions exist inside of opening and closing square brackets, and define a specific set of characters for which to search.
+Bracket expressions exist inside of opening and closing square brackets, and ultimately define a set of characters to search for.
 
 ### Character Classes
+
+Character classes exist inside of the bracket expressions; they determine which specific characters will be searched for.
 
 ### The OR Operator
 
