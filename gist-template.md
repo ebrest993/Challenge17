@@ -21,11 +21,19 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+Anchors' jobs aren't to match characters, but rather to assert where in the engine the search takes place. Namely, the beginning or end of a string.
+
 ### Quantifiers
+
+The quantifiers exist to determine exactly how many times an expression is repeated in a search.
 
 ### Grouping Constructs
 
+Grouping constructs deal with smaller subsets of both the regular expression and the input string.
+
 ### Bracket Expressions
+
+
 
 ### Character Classes
 
