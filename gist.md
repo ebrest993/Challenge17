@@ -1,10 +1,13 @@
-# Title (replace with your title)
+# Understanding Regular Expressions
 
-Introductory paragraph (replace this with your text)
+Regular Expressions are complicated bits of code that, if used properly and are well understood, can be made a great tool to have in one's toolbelt.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The following is the code we'll be examining. This code will confirm the input to be a valid email format, complete with an "@" symbol and the ".com" or ".org" web address. The RegEx will be deconstructed and examined piece by piece.
+
+The tutorial RegEx:
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ## Table of Contents
 
@@ -22,6 +25,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Anchors
 
 Anchors' jobs aren't to match characters, but rather to assert where in the engine the search takes place. Namely, the beginning or end of a string.
+
+In the above example, the search will run at the beginning of the string, as shown by the '^' symbol at the start of the expression.
 
 ### Quantifiers
 
@@ -53,4 +58,6 @@ Character escapes (indicated by a back slash) are used when you need to search f
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Elliott has been coding for roughly five months. He enjoys himself, though he has a long way to go.
+
+GitHub: https://github.com/ebrest993
