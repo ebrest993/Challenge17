@@ -7,7 +7,9 @@ Regular Expressions are complicated bits of code that, if used properly and are 
 The following is the code we'll be examining. This code will confirm the input to be a valid email format, complete with an "@" symbol and the ".com" or ".org" web address. The RegEx will be deconstructed and examined piece by piece.
 
 The tutorial RegEx:
-`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+```
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
 
 ## Table of Contents
 
